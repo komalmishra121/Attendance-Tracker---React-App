@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+}
+.gitissue {
+  background-color: #8957e5;
+  border-radius: 2rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 6px;
+  text-decoration: underline;
+  align-self: flex-end;
+  text-decoration: none;
+}
+.gitissue:hover {
+  background-color: #a07ce1;
+}
+.error {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.4rem;
+  background-color: rgb(250, 61, 61);
+  border-radius: 1rem;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 50%;
+  font-weight: 600;
+  color: white;
+}
+.header {
+  width: 100%;
+  background-color: rgb(234, 211, 246);
+  height: 24vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #454545;
+}
+.documentation {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 6px;
+  text-decoration: underline;
+  color: #454545;
+  text-decoration: none;
+}
+.documentation:hover {
+  color: palevioletred;
+}
+.documentation-container {
+  align-self: flex-end;
+}
+.heading {
+  font-size: 4rem;
+}
+.sub {
+  font-size: 2rem;
+}
+.calculator-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(217, 193, 240);
+  font-size: 3rem;
+  border-radius: 1.8rem;
+}
+
+.present,
+.absent,
+.delegation {
+  border-radius: 4rem;
+  padding: 8px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  border: none;
+}
+.result {
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(195, 234, 221);
+  border-radius: 1.8rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0;
+  padding-right: 0;
+  color: #454545;
+}
+.percentage {
+  font-size: 1.4rem;
+  color: #232222;
+  font-weight: 500;
+}
+.absentPossible {
+  font-size: 1.4rem;
+}
+.absentPossible-btn {
+  color: #454545;
+  border: solid 1px rgb(135, 78, 135);
+  margin-bottom: 1rem;
+}
+.absentPossible-container {
+  color: #454545;
+  margin-bottom: 2rem;
+}
+button {
+  border-radius: 1.6rem;
+  font-size: 1.2rem;
+  padding: 8px;
+  width: 60vh;
+  align-self: center;
+  border: solid 1px rgb(135, 78, 135);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  justify-content: space-evenly;
+  height: 10vh;
+  color: #646464;
+}
+
+.footer a {
+  color: #beb1b1;
+}
+
+@media (max-width: 400px) {
+  .documentation-container {
+    margin-top: 2rem;
+    align-self: center;
+  }
+  .heading {
+    font-size: 1.6rem;
+  }
+  .sub {
+    font-size: 1.2rem;
+  }
+  .interface {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .result {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .present,
+  .absent,
+  .delegation {
+    border-radius: 4rem;
+    padding: 8px;
+    font-size: 0.8rem;
+    width: 70%;
+    align-self: center;
+  }
+  button {
+    width: 60%;
+    align-self: center;
+    font-size: 1rem;
+  }
+  .percentage {
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+  }
+}
+.daysLeft-heading {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Iphone 12pro */
+@media (max-width: 500px) {
+  .documentation-container {
+    margin-top: 2rem;
+    align-self: center;
+  }
+  .heading {
+    font-size: 1.6rem;
+  }
+  .sub {
+    font-size: 1.2rem;
+  }
+  .interface {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .result {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .present,
+  .absent,
+  .delegation {
+    border-radius: 4rem;
+    padding: 8px;
+    font-size: 0.8rem;
+    align-self: center;
+  }
+  button {
+    width: 60%;
+    align-self: center;
+    font-size: 1rem;
+  }
+  .percentage {
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8rem;
+  }
+  .footer span {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+/* Ipad */
+@media (max-width: 768px) {
+  .documentation-container {
+    margin-top: 1rem;
+    align-self: center;
+  }
+}
